@@ -1,7 +1,7 @@
 package com.example.basics.kedd;
 
 
-import hetfo.Apple;
+import com.example.basics.hetfo.Apple;
 
 public class Main {
 

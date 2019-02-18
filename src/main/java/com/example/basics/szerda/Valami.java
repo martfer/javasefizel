@@ -1,6 +1,6 @@
 package com.example.basics.szerda;
 
-import hetfo.Plum;
+import com.example.basics.hetfo.Plum;
 
 public class Valami {
 
