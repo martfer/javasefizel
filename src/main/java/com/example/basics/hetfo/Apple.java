@@ -1,6 +1,5 @@
 package com.example.basics.hetfo;
 
-import kedd.Main;
 
 import java.util.Arrays;
 import java.util.Objects;
