@@ -1,4 +1,4 @@
-package com.example.io;
+package com.example.exercises;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,12 +9,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Scanner;
 
-public class App {
+public class ReadTaxNumbers {
 
     public static void main(String[] args) throws IOException {
 
 
-        App app = new App();
+        ReadTaxNumbers app = new ReadTaxNumbers();
 
         app.doIt();
 
