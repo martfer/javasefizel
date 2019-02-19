@@ -1,6 +1,8 @@
 package com.example.generics.basics;
 
-public class Wrapper<E> {
+import com.example.generics.Employee;
+
+public class Wrapper<E extends Employee> {
     private E value;
 
     public Wrapper() {
