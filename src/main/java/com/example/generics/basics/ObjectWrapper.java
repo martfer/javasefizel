@@ -1,4 +1,4 @@
-package com.example.collections;
+package com.example.generics.basics;
 
 public class ObjectWrapper {
     private Object o;

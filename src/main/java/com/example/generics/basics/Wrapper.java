@@ -1,7 +1,10 @@
-package com.example.collections;
+package com.example.generics.basics;
 
 public class Wrapper<E> {
     private E value;
+
+    public Wrapper() {
+    }
 
     public Wrapper(E o) {
         this.value = o;
@@ -14,4 +17,5 @@ public class Wrapper<E> {
     public void set(E o) {
         this.value = o;
     }
+
 }

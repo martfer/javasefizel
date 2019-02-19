@@ -1,4 +1,4 @@
-package com.example.collections;
+package com.example.generics;
 
 public class Manager extends Employee {
     @Override
