@@ -1,17 +1,17 @@
 package com.example.collections;
 
-public class Wrapper {
-    private Object o;
+public class Wrapper<E> {
+    private E value;
 
-    public Wrapper(Object o) {
-        this.o = o;
+    public Wrapper(E o) {
+        this.value = o;
     }
 
-    public Object get() {
-        return o;
+    public E get() {
+        return value;
     }
 
-    public void set(Object o) {
-        this.o = o;
+    public void set(E o) {
+        this.value = o;
     }
 }
