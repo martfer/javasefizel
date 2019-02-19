@@ -14,5 +14,6 @@ public class Lab01 {
 //        System.out.println("max(nums) = " + max(nums));
     }
 
-    max
+//    public static max(Collection<T> coll) {
+//}
 }
