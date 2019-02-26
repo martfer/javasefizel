@@ -28,7 +28,7 @@ public class GenericsDemo {
         System.out.println("ob: " + emp);
 
         List<? super Engineer>lse = lemp;
-        Object obj = lse.get(0);
+        lse.get(0);
         lse.add(new Engineer());
 //        lse.add(new Manager());
         lse.add(new SeniorEngineer());

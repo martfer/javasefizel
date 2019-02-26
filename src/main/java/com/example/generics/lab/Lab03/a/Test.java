@@ -1,6 +1,7 @@
-package com.example.generics.lab.Lab03;
+package com.example.generics.lab.Lab03.a;
 
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -8,6 +9,7 @@ import java.util.List;
 public class Test {
 
     public static void main(String... args) {
+
 
         List<Apple> apples = List.of(new Apple(1), new Apple(10));
         List<Orange> oranges = List.of(new Orange(1), new Orange(10));
@@ -27,7 +29,7 @@ public class Test {
         System.out.println("max(apples) == bigApple = " + (max(apples) == bigApple));
     }
 
-    public static <T extends Comparable<T>> T max(Collection<T> coll) {
+    public static<T extends Comparable<? super T>> T max(Collection<? extends T> coll)  {
         T candidate = null;
         for (T elt : coll) {
             if (candidate == null || candidate.compareTo(elt) < 0) {

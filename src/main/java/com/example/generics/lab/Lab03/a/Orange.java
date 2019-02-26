@@ -1,4 +1,4 @@
-package com.example.generics.lab.Lab03;
+package com.example.generics.lab.Lab03.a;
 
 public class Orange extends Fruit implements Comparable<Orange> {
     public Orange(int size) {
